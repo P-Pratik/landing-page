@@ -3,7 +3,7 @@
 }
 
 body {
-    color: white;
+    color: #E5E7EB;
     background-color: rgb(37, 37, 37);
     font-size: 18px;
     margin: 0;
@@ -51,6 +51,7 @@ body {
 .hero{
     height: 600px;
     display: flex;
+    gap: 20px;
 }
 
 .textside{
@@ -64,8 +65,10 @@ body {
 }
 
 .textside h1 {
+    color: #f9faf8;
     align-self: flex-start;
     font-size: 48px;
+    font-weight: 700;
     margin: 0;
 }
 
@@ -85,18 +88,20 @@ body {
     background-color: #3882f6;
 }
 
-.placeholder{
-    margin: 0;
-    padding: 0;
+.imageside{
     display: flex;
-    justify-content:center ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     flex: 1;
 }
 
-.placeholder p{
+.placeholder{
     background-color:grey;
-    align-self: center;
-    margin:0;
-    padding: 80px 80px;
-    flex-shrink: 0;
+    height: 200px;
+    margin: 0 20px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
