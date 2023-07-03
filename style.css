@@ -3,23 +3,33 @@
 }
 
 body {
+    color: white;
     background-color: rgb(37, 37, 37);
+    font-size: 18px;
+    margin: 0;
     padding: 0;
 }
 
+.part1{
+    background-color: #1f2937;
+}
+
+.navmenu, .hero{
+    max-width: 1000px;
+    margin: auto;
+}
 
 .navmenu {
     padding: 0 12px;
 }
+
 .navelements {
-    font-size: 18px;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 12px;
-
 }
 
 .navelements li{
@@ -36,4 +46,57 @@ body {
     margin-right: auto;
     font-size: 24px;
     color: #f9faf8;
+}
+
+.hero{
+    height: 600px;
+    display: flex;
+}
+
+.textside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 40px;
+    padding: 20px;
+}
+
+.textside h1 {
+    align-self: flex-start;
+    font-size: 48px;
+    margin: 0;
+}
+
+.textside p{
+    margin: 0;
+    align-self: flex-start;
+}
+
+
+
+.textside button{
+    flex-shrink: 0;
+    border-radius: 8px;
+    align-self: flex-start;
+    padding: 8px 30px;
+    color: white;
+    background-color: #3882f6;
+}
+
+.placeholder{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:center ;
+    flex: 1;
+}
+
+.placeholder p{
+    background-color:grey;
+    align-self: center;
+    margin:0;
+    padding: 80px 80px;
+    flex-shrink: 0;
 }
