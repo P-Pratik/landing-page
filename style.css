@@ -27,6 +27,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     gap: 12px;
@@ -49,8 +50,10 @@ body {
 }
 
 .hero{
-    height: 500px;
+    min-height: 500px;
+    padding: 40px 0px;
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -165,7 +168,7 @@ body {
     color: #1f2937;
     margin: auto;
     padding: 0;
-    height: 500px;
+    min-height: 500px;
     max-width: 1000px;
     display: flex;
     flex-direction: column;
@@ -186,4 +189,52 @@ body {
     font-size: 24px;
     font-weight: 500;
     align-self: flex-end;
+}
+
+.part4 {
+    min-height: 400px;
+    padding: 20px;
+    color: white;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    background-color: #3882f6;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.action p span {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.action button {
+    font-size: 18px;
+    padding: 4px 40px;
+    background-color: #3882f6;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.action button a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
