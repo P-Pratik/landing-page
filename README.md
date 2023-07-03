@@ -1,7 +1,7 @@
 # Landing-Page
 
 # Links
-* [Recipes Page link](https://p-pratik.github.io/landing-page/)
+* [Landing Page Active link](https://p-pratik.github.io/landing-page/)
 * [Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page)
 
 # About
