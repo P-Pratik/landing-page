@@ -4,7 +4,7 @@
 
 body {
     color: #E5E7EB;
-    background-color: rgb(37, 37, 37);
+    background-color: #E5E7EB;
     font-size: 18px;
     margin: 0;
     padding: 0;
@@ -109,7 +109,7 @@ body {
 
 .part2 {
     background-color: white;
-    height: 400px;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,9 +125,10 @@ body {
 }
 
 .blocks{
-    margin: 0;
+    margin-bottom: 100px;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 40px;
@@ -160,3 +161,29 @@ body {
     line-height: 20px;
 }
 
+.part3 {
+    color: #1f2937;
+    margin: auto;
+    padding: 0;
+    height: 500px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.quote {
+    margin: 0 50px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.testimon{
+    margin: 0 50px;
+    font-size: 24px;
+    font-weight: 500;
+    align-self: flex-end;
+}
